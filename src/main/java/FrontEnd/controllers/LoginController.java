@@ -59,6 +59,7 @@ public class LoginController {
 		ModelAndView mv = new ModelAndView();
 		mv.addObject("logoutMessage", "You have successfully logged out!");
 		mv.setViewName("login");
+		
 		return mv;
 	}
 	  
