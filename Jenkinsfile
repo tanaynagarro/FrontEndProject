@@ -10,5 +10,10 @@ pipeline {
         bat "mvn clean install";
         }
     }
+    stage('Deploy')
+    {
+      steps{
+        echo "Deploying Project";
+    }
     }
 }
